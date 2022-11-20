@@ -1,0 +1,124 @@
+body {
+    color: black;
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    /* width: 1400px;
+    height: 900px; */
+    font-size: 17px;
+}
+
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+hr {
+    color: yellow;
+    border-style: solid;
+    border-width: 3px;
+}
+
+span {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+/* Div Container */
+
+#container {
+    background-color: white;
+    margin: 1px 50px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+}
+
+/* Navbar */
+
+.navbar li {
+    display: inline;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    border-width: 1px;
+}
+
+/* Funny Face Div + Img */
+
+.imageOne {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+}
+
+.imageOne p {
+    text-indent: -90px;
+    /* This is to center the source to the img respectively */
+}
+
+.funnyFace {
+    position: absolute;
+    bottom: 40%;
+    left: 93%;
+}
+
+/* Table + Paragraph Float */
+
+.tablePos {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 0 5px 5px;
+    padding: 20px;
+    float: right;
+}
+
+.infoTable {
+    border-collapse: collapse;
+    background-color: green;
+    text-align: center;
+}
+
+.infoTable th {
+    color: aqua;
+}
+
+.infoTable td {
+    padding: 10px 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Violet + Green Logo Positioned for 1400x900 */
+
+.logo {
+    position: relative;
+}
+
+.circleViolet {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(84, 2, 119);
+    border-radius: 50%;
+    position: absolute;
+    right: 100.5%;
+    bottom: -25px;
+}
+
+.circleGreen {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    right: 101%;
+    bottom: 10px;
+}
